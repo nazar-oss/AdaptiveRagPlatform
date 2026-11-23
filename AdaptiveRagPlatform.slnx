@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/AdaptiveRag.Ai/AdaptiveRag.Ai.csproj" />
+    <Project Path="src/AdaptiveRag.Api/AdaptiveRag.Api.csproj" />
+    <Project Path="src/AdaptiveRag.Data/AdaptiveRag.Data.csproj" />
+    <Project Path="src/AdaptiveRag.Web/AdaptiveRag.Web.csproj" />
+  </Folder>
+</Solution>
