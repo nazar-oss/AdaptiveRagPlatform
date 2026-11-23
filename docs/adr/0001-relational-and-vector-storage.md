@@ -1,4 +1,4 @@
-# ADR-0001. Поєднання PostgreSQL (EF Core) та Qdrant для зберігання даних
+﻿# ADR-0001. Поєднання PostgreSQL (EF Core) та Qdrant для зберігання даних
 
 ## Статус
 Прийнято
