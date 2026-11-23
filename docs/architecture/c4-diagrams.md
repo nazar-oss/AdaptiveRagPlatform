@@ -16,8 +16,11 @@ C4Context
     Rel(student, ragPlatform, "Проходить тести, переглядає зворотний зв'язок", "HTTPS")
     Rel(teacher, ragPlatform, "Завантажує конспекти, керує тестами", "HTTPS")
     Rel(ragPlatform, llmProvider, "Надсилає промпти та запити на векторизацію", "REST API / HTTPS")
-2. Container Diagram (Контейнери системи)
-Фрагмент коду
+```
+
+## 2. Container Diagram (Контейнери системи)
+
+```mermaid
 C4Container
     title Container Diagram — Adaptive RAG Platform (.NET 10)
 
@@ -39,3 +42,4 @@ C4Container
     Rel(webApi, aiModule, "Викликає генерацію та перевірку", "In-Process (.NET)")
     Rel(aiModule, qdrantDb, "Шукає релевантні чанки та зберігає вектори", "gRPC / HTTP")
     Rel(aiModule, llmApi, "Генерує питання, оцінки та ембедінги", "HTTPS")
+```
