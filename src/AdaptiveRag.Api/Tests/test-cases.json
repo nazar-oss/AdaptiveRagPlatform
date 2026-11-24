@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "text": "Яка тема та статус індексації навчального матеріалу 101?",
+    "expectedCategory": "material_info",
+    "expectedMaterialId": 101,
+    "expectTool": true
+  },
+  {
+    "id": 2,
+    "text": "Скільки тестів доступно для матеріалу з номером 102?",
+    "expectedCategory": "material_info",
+    "expectedMaterialId": 102,
+    "expectTool": true
+  },
+  {
+    "id": 3,
+    "text": "Перевір інформацію про матеріал 999, не можу його знайти.",
+    "expectedCategory": "material_info",
+    "expectedMaterialId": 999,
+    "expectTool": true
+  },
+  {
+    "id": 4,
+    "text": "Як мені краще підготуватися до адаптивного тестування на платформі?",
+    "expectedCategory": "test_help",
+    "expectedMaterialId": null,
+    "expectTool": false
+  },
+  {
+    "id": 5,
+    "text": "Підкажи по матеріалу 101, які ключові теми варто повторити перед тестом?",
+    "expectedCategory": "test_help",
+    "expectedMaterialId": 101,
+    "expectTool": true
+  },
+  {
+    "id": 6,
+    "text": "Сайт зависає і вибиває помилку під час завантаження PDF-файлу.",
+    "expectedCategory": "technical_issue",
+    "expectedMaterialId": null,
+    "expectTool": false
+  },
+  {
+    "id": 7,
+    "text": "Матеріал 102 не відкривається, постійно крутиться індикатор завантаження.",
+    "expectedCategory": "technical_issue",
+    "expectedMaterialId": 102,
+    "expectTool": true
+  },
+  {
+    "id": 8,
+    "text": "Система зняла бали за правильну відповідь, хочу оскаржити оцінку.",
+    "expectedCategory": "grading_appeal",
+    "expectedMaterialId": null,
+    "expectTool": false
+  },
+  {
+    "id": 9,
+    "text": "Не погоджуюся з балом за тест по матеріалу 101, перевірте вручну.",
+    "expectedCategory": "grading_appeal",
+    "expectedMaterialId": 101,
+    "expectTool": true
+  },
+  {
+    "id": 10,
+    "text": "Привіт! Як працює ваша освітня платформа?",
+    "expectedCategory": "other",
+    "expectedMaterialId": null,
+    "expectTool": false
+  }
+]
