@@ -1,0 +1,29 @@
+[
+  {
+    "user": "Підкажіть, будь ласка, чи проіндексований вже матеріал 101 і скільки там тестів?",
+    "assistant": {
+      "category": "material_info",
+      "priority": "medium",
+      "material_id": 101,
+      "summary": "Запит статусу індексації та кількості тестів для матеріалу 101"
+    }
+  },
+  {
+    "user": "У мене видає помилку 500 при спробі відкрити тест!",
+    "assistant": {
+      "category": "technical_issue",
+      "priority": "high",
+      "material_id": null,
+      "summary": "Помилка 500 під час відкриття тесту"
+    }
+  },
+  {
+    "user": "AI неправильно оцінив мою відкриту відповідь у тесті, вимагаю перегляду.",
+    "assistant": {
+      "category": "grading_appeal",
+      "priority": "high",
+      "material_id": null,
+      "summary": "Оскарження оцінки AI за відкриту відповідь"
+    }
+  }
+]
